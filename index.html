@@ -1,14 +1,213 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ansar Hussain - Web3 & Blockchain Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+    <header class="main-header">
+        <nav class="main-nav">
+            <a href="#home" class="logo">AnsarHussain</a>
+            <ul class="nav-links">
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#skills"><i class="fas fa-cogs"></i> Skills</a></li>
+                <li><a href="#portfolio"><i class="fas fa-briefcase"></i> Portfolio</a></li>
+                <li><a href="#highlights"><i class="fas fa-award"></i> Highlights</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <h1 class="hero-title">Ansar Hussain</h1>
+                    <p class="hero-subtitle">Web3 & Blockchain Developer</p>
+                    <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                </div>
+                <div class="hero-image">
+                    <img src="profile.png" alt="Ansar Hussain">
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Passionate Web3 and Blockchain Developer from Coimbatore, India. I specialize in building secure, scalable, and user-friendly decentralized applications (dApps) with Rust, Solidity, and React. As a Smart India Hackathon 2023 finalist, I'm recognized for creating innovative blockchain solutions.</p>
+                        <p>My experience covers fractional NFT marketplaces, cross-chain wallets, and AI-integrated crypto tools. I'm currently focused on the intersection of AI and Web3, developing user-friendly wallet systems, and producing educational content to demystify crypto innovation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Languages</h3>
+                        <ul>
+                            <li><i class="fas fa-code"></i> Rust</li>
+                            <li><i class="fas fa-code"></i> Solidity</li>
+                            <li><i class="fas fa-code"></i> Java</li>
+                            <li><i class="fas fa-code"></i> JavaScript</li>
+                            <li><i class="fas fa-code"></i> Python</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li><i class="fab fa-react"></i> React.js</li>
+                            <li><i class="fas fa-greater-than"></i> Next.js</li>
+                            <li><i class="fas fa-code"></i> TypeScript</li>
+                            <li><i class="fab fa-css3-alt"></i> Tailwind CSS</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Blockchain</h3>
+                        <ul>
+                            <li><i class="fas fa-cubes"></i> Internet Computer Protocol (ICP)</li>
+                            <li><i class="fas fa-route"></i> Router Protocol</li>
+                            <li><i class="fas fa-cubes"></i> Thirdweb</li>
+                            <li><i class="fab fa-ethereum"></i> Ethereum</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <ul>
+                            <li><i class="fab fa-node-js"></i> Node.js</li>
+                            <li><i class="fas fa-server"></i> Express.js</li>
+                            <li><i class="fas fa-exchange-alt"></i> REST APIs</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools</h3>
+                        <ul>
+                            <li><i class="fab fa-git-alt"></i> Git</li>
+                            <li><i class="fab fa-figma"></i> Figma</li>
+                            <li><i class="fas fa-cogs"></i> Make.com</li>
+                            <li><i class="fas fa-project-diagram"></i> Draw.io</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <div class="container">
+                <h2 class="section-title">My Portfolio</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-card">
+                        <div class="card-content">
+                            <h3 class="card-title">🪙 Land Vault Smart Contract</h3>
+                            <p class="card-description">Tokenizing and transferring real-world land assets securely across blockchains using Router Protocol.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-card">
+                        <div class="card-content">
+                            <h3 class="card-title">💼 Chain Abstracted Wallet</h3>
+                            <p class="card-description">Enabling seamless cross-chain transactions through Account Abstraction.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-card">
+                        <div class="card-content">
+                            <h3 class="card-title">🤖 Telegram Crypto Bot</h3>
+                            <p class="card-description">Automating crypto trades, swaps, and market insights.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-card">
+                        <div class="card-content">
+                            <h3 class="card-title">🌐 Fruitfy</h3>
+                            <p class="card-description">A D2C fruit marketplace focused on freshness and affordability.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-card">
+                        <div class="card-content">
+                            <h3 class="card-title">🏠 ASM Interiors Website</h3>
+                            <p class="card-description">A modern React-based business site with a royal theme.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="highlights">
+            <div class="container">
+                <h2 class="section-title">Highlights</h2>
+                <div class="highlights-grid">
+                    <div class="highlight-card">
+                        <i class="fas fa-trophy"></i>
+                        <h3>Finalist – Smart India Hackathon 2023</h3>
+                        <p>(Blockchain Track)</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fab fa-bitcoin"></i>
+                        <h3>Participant – Bitshala: Start Your Career in Bitcoin Open Source 2025</h3>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <h3>Attendee – Build on Chain by Devfolio</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-form">
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p><i class="fas fa-envelope"></i> ansarhussain@example.com</p>
+                        <p><i class="fas fa-phone"></i> +91 93441 22601</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Coimbatore, India</p>
+                        <div class="social-links">
+                            <a href="https://github.com/matrixfur"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/a-ansar-hussain/"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://x.com/0xAnsarhussain"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2024 Ansar Hussain. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81UTImhDLoCg6O" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
 </body>
 </html>
